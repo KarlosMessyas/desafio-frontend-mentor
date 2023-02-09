@@ -1,24 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;800&family=Merriweather:wght@400;700;900&display=swap');
+
 .container{
     width: 100vw;
     height: 100vh;
-    background: #fffcf2;
+    background: #f3eae3;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
 }
 .box{
-    width: 700px;
-    height: 600px;
-    background: #ffffff;
+    width: 550px;
+    height: 389px;
     border-radius: 10px;
-    box-shadow: 2px 2px 3px black;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 body{
     margin: 0px;
 }
 
-img{
-    width: 400px;
+.img img{
+    width: 261.5px;
+    height: 389px;
     border-radius: 10px 0px 0px 10px;
 }
+
+.textos{
+    padding: 42px;
+    background-color: white;
+    width: 261.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0px 10px 10px 0px;
+    gap: 20px;
+}
+
+.t1 p{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: gray;
+    font-weight: 200;
+    letter-spacing: 16px;
+}
+
+.t2 p{
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.t3 p{
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: gray;
+    font-weight: 200px;
+}
+
+.t4{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.p1{
+    color: #3d8168;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.p2{
+    color: gray;
+    text-decoration: line-through;
+    font-size: 15px;
+}
+
+.botao{
+    background-color: #3d8168;
+    width: 180px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.botao:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 2px black;
+}
+
+.carro{
+    width: 2.5vh;
+}
+
+.p3{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+
